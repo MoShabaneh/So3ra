@@ -13,6 +13,15 @@
         android:theme="@style/Theme.So3ra"
         tools:targetApi="31">
         <activity
+            android:name=".MealDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MealDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MealSelectionActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
